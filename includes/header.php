@@ -21,12 +21,13 @@
   <body>
 
     <div class="links site_top">
-      <h1 class="text-center" id="page_title">نمایش شاخص کیفیت هوای شهرهای جهان</h1>
-      <img src="img/logo.jpg" alt="logo" width="70px" height="70px" />
+      <h1 id="page_title">نمایش شاخص کیفیت هوای شهرهای جهان
+      <img id="logo" src="img/logo.jpg" alt="logo" width="60px" height="60px" />
+      </h1>
     </div>
     <nav class="navbar navbar-xs navbar-expand-lg navbar-light links">
-      <a class="btn btn-xs btn-outline-light about_btn" href="">خانه</a>
-      <a class="btn btn-xs btn-outline-light about_btn" href="">درباره ما <span class="sr-only">(current)</span></a>
+      <a class="btn btn-xs btn-outline-light about_btn" href="index.php">خانه</a>
+      <a class="btn btn-xs btn-outline-light about_btn" href="about.php">درباره ما <span class="sr-only">(current)</span></a>
       <button class="navbar-toggler" id="btn_collapse" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -38,7 +39,7 @@
           </li>
           
         </ul>
-        <form class="form-inline my-2 my-lg-0" method="POST" action="api.php">
+        <form class="form-inline my-2 my-lg-0" method="POST" action="index.php">
           <input class="form-control mr-sm-2" id="city_input" type="search" placeholder="نام شهر را وارد کنید" aria-label="Search" name="city">
           <button class="btn btn-xs btn-outline-light my-2 my-sm-0 search_btn" type="submit">جستجو</button>
         </form>
