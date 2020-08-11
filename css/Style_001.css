@@ -1,0 +1,50 @@
+
+
+html {
+	height: 100%; margin: 0;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	display:flex; 
+  	flex-direction:column;
+}
+
+.site_top {background-color: #cfa; padding-top: 1rem;}     
+#page_title{color: #999;
+	padding-top:40px;
+	font-size: 2rem;
+	font-family: BTitrBold,'BTitrBold',tahoma;}
+.boxLeft {float: left;}
+.boxRight {float: right;}
+.links {direction: rtl;}
+.about_btn, .search_btn {margin-right: 15px;}
+nav {margin-top: 0!important; background-color: #888;}
+nav a, nav form input, nav form button {font-family: BZar,'BZar',tahoma; font-size: 1rem !important; padding-top: 1px !important; }
+.navbar-xs { min-height:28px; height: 28px; }
+.btn-xs {  padding-top: 0px; padding-bottom: 0px; line-height: 20px; }
+h1 {direction: rtl; font-family: BZar,'BZar',tahoma; text-align: right; font-size: 2rem; padding-right: 1rem;}
+#pooya_web {font-family: 'Montserrat', sans-serif; 
+text-align: left; font-size: 1rem; 
+padding-left: 1rem;
+padding-bottom: 0.5rem;
+margin-bottom: 0!important;}
+#desc {direction: rtl; font-family: BZar,'BZar',tahoma; font-size: 16pt; text-align: right;}
+#icon {margin-right: 20px;}
+footer {padding: 10px;
+	background-color:#444;
+	padding: 10px;
+	clear: both;
+    margin-top:auto; 
+    height: 50px;
+	color: white;}
+#good {background-color: #0C0; padding-left: 10px; padding-right: 10px; padding-top: 10px; color: white;border-radius: 5px; display:inline-block; margin-top: 20px;}
+#moderate {background-color: #FFFF00; padding-left: 10px; padding-right: 10px; padding-top: 10px; color: #000;border-radius: 5px; display:inline-block; margin-top: 20px;}
+#usg {background-color: #FF9900; padding-left: 10px; padding-right: 10px;padding-top: 10px; color: white;border-radius: 5px; display:inline-block; margin-top: 20px;}
+#unhealthy {background-color: #FF0000; padding-left: 10px; padding-right: 10px;padding-top: 10px; color: white;border-radius: 5px; display:inline-block; margin-top: 20px;}
+#veryunhealty {background-color: #990066; padding-left: 10px; padding-right: 10px;padding-top: 10px; color: white;border-radius: 5px; display:inline-block; margin-top: 20px;}
+#hazardous {background-color: #660000; padding-left: 10px; padding-right: 10px;padding-top: 10px; color: white; border-radius: 5px; display:inline-block; margin-top: 20px;}
+h5 {padding: 10px;}
+
+#city_input{height: 20px !important; padding-top: 8px !important;}
