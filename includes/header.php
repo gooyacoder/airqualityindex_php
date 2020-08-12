@@ -8,12 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <link href='http://www.fontonline.ir/css/BZar.css' rel='stylesheet' type='text/css'>
-    <link href='http://www.fontonline.ir/css/BHoma.css' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet"> 
-    <link href='http://www.fontonline.ir/css/IranNastaliq.css' rel='stylesheet' type='text/css'>
-    <link href='http://www.fontonline.ir/css/BTitrBold.css' rel='stylesheet' type='text/css'>
-    <link href='http://www.fontonline.ir/css/BSinaBold.css' rel='stylesheet' type='text/css'>
+    
     <link href="css/Style_001.css" rel='stylesheet' type='text/css'>
 
     <title>Air Quality Search powered by Pooyesh Afzar</title>

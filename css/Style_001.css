@@ -11,30 +11,44 @@ body {
   	flex-direction:column;
 }
 
+@font-face {
+  font-family: 'IRTitr';
+  src: url('IRTitr.ttf');
+  src: url('IRTitr.ttf'),
+  url('IRTitr.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'IRZar';
+  src: url('IRZar.ttf');
+  src: url('IRZar.ttf'),
+  url('IRZar.ttf') format('truetype');
+}
+
 .site_top {background-color: #eeeeee;height: 60px !important;}     
 .page_title_1{color: #999;
 	line-height: 60px;
 	font-size: 2rem;
-	font-family: BTitrBold,'BTitrBold',tahoma;}
+	font-family: IRTitr, 'IRTitr' ,tahoma;}
 .page_title_2{color: #999;
-line-height: 60px;
-font-size: 1rem;
-font-family: BTitrBold,'BTitrBold',tahoma;}
+	line-height: 60px;
+	font-size: 1rem;
+	font-family: IRTitr, 'IRTitr',tahoma;}
 .boxLeft {float: left;}
 .boxRight {float: right;}
 .links {direction: rtl;}
 .about_btn, .search_btn {margin-right: 15px;}
 nav {margin-top: 0!important; background-color: #888;}
-nav a, nav form input, nav form button {font-family: BZar,'BZar',tahoma; font-size: 1rem !important; padding-top: 1px !important; }
+nav a, nav form input, nav form button {font-family: IRZar, 'IRZar',tahoma; font-size: 1rem !important; padding-top: 1px !important; }
 .navbar-xs { min-height:28px; height: 28px; }
 .btn-xs {  padding-top: 0px; padding-bottom: 0px; line-height: 20px; }
-h1 {direction: rtl; font-family: BZar,'BZar',tahoma; text-align: right; font-size: 2rem; padding-right: 1rem;}
+h1 {direction: rtl; font-family: IRZar, 'IRZar',tahoma; text-align: right; font-size: 2rem; padding-right: 1rem;}
 #pooya_web {font-family: 'Montserrat', sans-serif; 
 text-align: left; font-size: 1rem; 
 padding-left: 1rem;
 padding-bottom: 0.5rem;
 margin-bottom: 0!important;}
-#desc {direction: rtl; font-family: BZar,'BZar',tahoma; font-size: 16pt; text-align: right;}
+#desc {direction: rtl; font-family: IRZar, 'IRZar' ,tahoma; font-size: 16pt; text-align: right;}
 #icon {margin-right: 20px;}
 footer {
 	padding: 10px;
@@ -54,8 +68,8 @@ h5 {padding: 10px;}
 
 #city_input{height: 20px !important; padding-top: 8px !important;}
 #logo {float: left;}
-#location {font-family: BZar,'BZar',tahoma; font-size: 1.5rem !important; font-weight:bold;}
-#error {font-family: BZar,'BZar',tahoma; font-size: 1.5rem !important; font-weight:bold; direction: rtl; text-align: right; }
+#location {font-family: IRZar, 'IRZar',tahoma; font-size: 1.5rem !important; font-weight:bold;}
+#error {font-family: IRZar, 'IRZar',tahoma; font-size: 1.5rem !important; font-weight:bold; direction: rtl; text-align: right; }
 .center {
   display: block;
   margin-left: auto;
