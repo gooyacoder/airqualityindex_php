@@ -12,10 +12,14 @@ body {
 }
 
 .site_top {background-color: #eeeeee;height: 60px !important;}     
-#page_title{color: #999;
+.page_title_1{color: #999;
 	line-height: 60px;
 	font-size: 2rem;
 	font-family: BTitrBold,'BTitrBold',tahoma;}
+.page_title_2{color: #999;
+line-height: 60px;
+font-size: 1rem;
+font-family: BTitrBold,'BTitrBold',tahoma;}
 .boxLeft {float: left;}
 .boxRight {float: right;}
 .links {direction: rtl;}

@@ -25,7 +25,7 @@
       <img id="logo" src="img/logo.jpg" alt="logo" width="60px" height="60px" />
       </h1>
     </div>
-    <nav class="navbar navbar-xs navbar-expand-lg navbar-light links">
+    <nav id="navigation">
       <a class="btn btn-xs btn-outline-light about_btn" href="index.php">خانه</a>
       <a class="btn btn-xs btn-outline-light about_btn" href="about.php">درباره ما <span class="sr-only">(current)</span></a>
       <button class="navbar-toggler" id="btn_collapse" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
