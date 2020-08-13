@@ -11,7 +11,7 @@
     
     <link href="css/Style_001.css" rel='stylesheet' type='text/css'>
 
-    <title>Air Quality Search powered by Pooyesh Afzar</title>
+    <title>Nickweb Air Quality</title>
   </head>
   <body>
 

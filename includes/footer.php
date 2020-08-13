@@ -5,7 +5,7 @@
 <?php 
 
 	echo "<footer>";
-	echo "<center>Copyright &copy 1995 - " . date('Y') . " Pooya Web Ltd.</center>";
+	echo "<center>Copyright &copy 1995 - " . date('Y') . " Nickweb</center>";
 	echo "</footer>";
 ?>
 
