@@ -13,7 +13,8 @@
 		$json = file_get_contents($url, true);
 		$result = json_decode($json, true);
 		$array_1 = $result['data'];
-		if(!array_key_exists('aqi', (array)$array_1)){
+		
+		if(!isset($array_1['aqi'])){
 			echo "<div class=\"alert alert-warning\" id=\"error\" role=\"alert\">";
 			echo "متاسفانه داده ای برای شهر \"". $_POST['city'] . "\" یافت نشد!";
 			echo "</div>";
