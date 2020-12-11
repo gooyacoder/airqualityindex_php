@@ -27,7 +27,7 @@
       <a class="btn btn-xs btn-outline-light about_btn" href="index.php">خانه</a>
       <a class="btn btn-xs btn-outline-light about_btn" href="about.php">درباره ما <span class="sr-only">(current)</span></a>
       <button class="navbar-toggler" id="btn_collapse" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon "></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">

@@ -25,12 +25,12 @@ body {
   url('IRZar.ttf') format('truetype');
 }
 
-.site_top {background-color: #eeeeee;height: 60px !important;}     
-.page_title_1{color: #999;
+.site_top {background-color: #000;height: 60px !important;}     
+.page_title_1{color: #fff;
 	line-height: 60px;
 	font-size: 2rem;
 	font-family: IRTitr, 'IRTitr' ,tahoma;}
-.page_title_2{color: #999;
+.page_title_2{color: #fff;
 	line-height: 60px;
 	font-size: 1rem;
 	font-family: IRTitr, 'IRTitr',tahoma;}
@@ -48,7 +48,7 @@ text-align: left; font-size: 1rem;
 padding-left: 1rem;
 padding-bottom: 0.5rem;
 margin-bottom: 0!important;}
-#desc {direction: rtl; font-family: IRZar, 'IRZar' ,tahoma; font-size: 16pt; text-align: right;}
+.desc {direction: rtl; font-family: IRZar, 'IRZar' ,tahoma; font-size: 16pt; text-align: right;}
 #icon {margin-right: 20px;}
 footer {
 	padding: 10px;
@@ -76,3 +76,13 @@ h5 {padding: 10px;}
   margin-right: auto;
   width: 100%;
 }
+
+#timestamp {
+	color: rgb(170, 170, 170);
+}
+
+#status_title {
+	
+	font-family: IRTitr, 'IRTitr' ,tahoma;
+}
+

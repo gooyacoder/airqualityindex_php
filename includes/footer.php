@@ -2,6 +2,7 @@
 
 </div>
 
+
 <?php 
 
 	echo "<footer>";

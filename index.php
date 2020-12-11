@@ -76,7 +76,7 @@
 		if ($result['data']['aqi'] < 51){
 			$status = 'Good';
 			$status_color = 'good';
-			$description = 'كیفیت هوا رضایت بخش است و آلودگی هوا خطری كم یا خطر ندارد.';
+			$description = 'كیفیت هوا رضایت بخش است و آلودگی هوا بدون خطر یا کم خطر می باشد.';
 		}
 		elseif ($result['data']['aqi'] < 101){
 			$status = 'Moderate';
@@ -112,9 +112,11 @@
 		<h2><?php echo $status; ?></h2>AQI : <?php echo $result['data']['aqi'];?>
 	</div>
 	<p class="lead" id="location"><br>Location : <?php echo $result['data']['city']['name'];?></p>
- 	<hr class="my-4">
-  	<p id="desc"><?php echo $description;?></p>
-  	
+	<div id="timestamp" class="float-right"></div><br>
+ 	<hr class="my-4"> 
+	<p class="desc" id="status_title">وضعیت آلودگی هوا</p>
+  	<p class="desc"><?php echo $description;?></p>
+	 	
 </div>
 
 
