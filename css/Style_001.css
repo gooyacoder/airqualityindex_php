@@ -38,7 +38,7 @@ body {
 .boxRight {float: right;}
 .links {direction: rtl;}
 .about_btn, .search_btn {margin-right: 15px;}
-nav {margin-top: 0!important; background-color: #888;}
+nav {margin-top: 0!important; background-color: #ccc;}
 nav a, nav form input, nav form button {font-family: IRZar, 'IRZar',tahoma; font-size: 1rem !important; padding-top: 1px !important; }
 .navbar-xs { min-height:28px; height: 28px; }
 .btn-xs {  padding-top: 0px; padding-bottom: 0px; line-height: 20px; }
@@ -81,8 +81,14 @@ h5 {padding: 10px;}
 	color: rgb(170, 170, 170);
 }
 
-#status_title {
+.status_title {
 	
 	font-family: IRTitr, 'IRTitr' ,tahoma;
+}
+
+.city_title {
+	
+	font-family: IRTitr, 'IRTitr' ,tahoma;
+	font-size: 30pt;
 }
 

@@ -38,7 +38,7 @@
 			elseif($result['data']['aqi'] < 201){
 				$status = 'Unhealthy';
 				$status_color = 'unhealthy';
-				$description = 'برخی از افراد عمومی ممکن است اثرات آلودگی هوا را بر سلامتی خود تجربه کنند. اعضای گروههای حساس ممکن است اثرات جدی تری را تجربه کنند.';
+				$description = 'برخی از افراد عادی ممکن است اثرات آلودگی هوا را بر سلامتی خود تجربه کنند. اعضای گروههای حساس ممکن است اثرات جدی تری را تجربه کنند.';
 			}
 			elseif($result['data']['aqi'] < 301){
 				$status = 'Very Unhealthy';
@@ -53,12 +53,14 @@
 			?>
 
 			<div class="jumbotron">
+				<div class="float-right desc status_title pl-3">شهر </div><div class="float-right desc city_title"><?php echo $city; ?></div>
 			  	<div id="<?php echo $status_color; ?>" style="text-align: center;">
 					<h2><?php echo $status; ?></h2>AQI : <?php echo $result['data']['aqi'];?>
 				</div>
 				<p class="lead" id="location"><br>Location : <?php echo $result['data']['city']['name'];?></p>
 			 	<hr class="my-4">
-			  	<p id="desc"><?php echo $description;?></p>
+				 <p class="desc status_title">وضعیت آلودگی هوا</p>
+			  	<p class="desc"><?php echo $description;?></p>
 			  	
 			</div>
 		<?php
@@ -91,7 +93,7 @@
 		elseif($result['data']['aqi'] < 201){
 			$status = 'Unhealthy';
 			$status_color = 'unhealthy';
-			$description = 'برخی از افراد عمومی ممکن است اثرات آلودگی هوا را بر سلامتی خود تجربه کنند. اعضای گروههای حساس ممکن است اثرات جدی تری را تجربه کنند.';
+			$description = 'برخی از افراد عادی ممکن است اثرات آلودگی هوا را بر سلامتی خود تجربه کنند. اعضای گروههای حساس ممکن است اثرات جدی تری را تجربه کنند.';
 		}
 		elseif($result['data']['aqi'] < 301){
 			$status = 'Very Unhealthy';
@@ -108,13 +110,14 @@
 
 
 <div class="jumbotron">
+	<div class="float-right desc status_title pl-3">شهر </div><div class="float-right desc city_title">شیراز</div>
   	<div id="<?php echo $status_color; ?>" style="text-align: center;">
 		<h2><?php echo $status; ?></h2>AQI : <?php echo $result['data']['aqi'];?>
 	</div>
 	<p class="lead" id="location"><br>Location : <?php echo $result['data']['city']['name'];?></p>
 	<div id="timestamp" class="float-right"></div><br>
  	<hr class="my-4"> 
-	<p class="desc" id="status_title">وضعیت آلودگی هوا</p>
+	<p class="desc status_title">وضعیت آلودگی هوا</p>
   	<p class="desc"><?php echo $description;?></p>
 	 	
 </div>
@@ -135,3 +138,4 @@
 	require_once 'includes/footer.php';
 
 ?>
+

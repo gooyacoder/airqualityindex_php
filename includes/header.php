@@ -23,24 +23,29 @@
       <img id="logo" src="img/logo.jpg" alt="logo" width="60px" height="60px" />
       </h1>
     </div>
-    <nav id="navigation">
-      <a class="btn btn-xs btn-outline-light about_btn" href="index.php">خانه</a>
-      <a class="btn btn-xs btn-outline-light about_btn" href="about.php">درباره ما <span class="sr-only">(current)</span></a>
-      <button class="navbar-toggler" id="btn_collapse" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon "></span>
-      </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-           
-          </li>
-          
-        </ul>
-        <form class="form-inline my-2 my-lg-0" method="POST" action="index.php">
-          <input class="form-control mr-sm-2" id="city_input" type="search" placeholder="نام شهر را وارد کنید" aria-label="Search" name="city">
-          <button class="btn btn-xs btn-outline-light my-2 my-sm-0 search_btn" type="submit">جستجو</button>
-        </form>
+      
+
+    <nav id="navigation">
+      <div class="container">
+        <a class="btn btn-xs btn-secondary about_btn" href="index.php" style="margin-right: 0px !important;">خانه</a>
+        <a class="btn btn-xs btn-secondary about_btn" href="about.php">درباره ما <span class="sr-only">(current)</span></a>
+        <button class="navbar-toggler" id="btn_collapse" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+            
+            </li>
+            
+          </ul>
+          <form class="form-inline my-2 my-lg-0" method="POST" action="index.php">
+            <input class="form-control mr-sm-2" id="city_input" type="search" placeholder="نام شهر را وارد کنید" aria-label="Search" name="city">
+            <button class="btn btn-xs btn-secondary my-2 my-sm-0 search_btn" type="submit">جستجو</button>
+          </form>
+        </div>
       </div>
     </nav>
 
