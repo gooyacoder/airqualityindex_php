@@ -144,3 +144,10 @@ Stack trace:
 [20-Dec-2020 18:00:05 UTC] PHP Notice:  Trying to get property 'aqi' of non-object in /home/airquali/public_html/table.php on line 36
 [20-Dec-2020 18:00:05 UTC] PHP Notice:  Trying to get property 'time_of_day' of non-object in /home/airquali/public_html/table.php on line 37
 [20-Dec-2020 18:00:05 UTC] PHP Notice:  Trying to get property 'aqi_date' of non-object in /home/airquali/public_html/table.php on line 38
+[20-Dec-2020 18:10:19 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/airquali/public_html/table.php on line 32
+[21-Dec-2020 09:14:07 UTC] PHP Notice:  Array to string conversion in /home/airquali/public_html/table_morning.php on line 65
+[21-Dec-2020 09:14:07 UTC] PHP Notice:  Array to string conversion in /home/airquali/public_html/table_morning.php on line 69
+[21-Dec-2020 09:26:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on string in /home/airquali/public_html/table_morning.php:67
+Stack trace:
+#0 {main}
+  thrown in /home/airquali/public_html/table_morning.php on line 67
