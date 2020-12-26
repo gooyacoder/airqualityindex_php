@@ -54,6 +54,7 @@
 		<!-- </tbody>
 	</table>
 </div> -->
+<div class="jumbotron">
 <div height="400px" width="600px" class="col-8 mx-auto">
 
 
@@ -275,6 +276,7 @@ var myChart = new Chart(ctx, {
     }
 });
 </script>
+</div>
 </div>
 <br><br>
 
