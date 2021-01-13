@@ -1,7 +1,7 @@
 <?php 
 
 
-function getChartData($time_of_day, &$dates, &$aqi_array){
+function getChartData($time_of_day, $from, $to, &$dates, &$aqi_array){
     $servername = "localhost";
 	$username = "airquali_admin";
 	$password = "P3wi9uiRwBYSTag";
@@ -16,8 +16,9 @@ function getChartData($time_of_day, &$dates, &$aqi_array){
 	if ($conn->connect_error) {
 	die("Connection failed: " . $conn->connect_error);
 	}
-
-	$sql = "SELECT * FROM shiraz_aqi_table WHERE time_of_day='" . $time_of_day . "' ORDER BY aqi_date ASC";
+	//SELECT CONVERT(DATE,@StringDate,101)
+	$sql = "SELECT * FROM shiraz_aqi_table WHERE time_of_day='" . $time_of_day . "' 
+		and aqi_date>='" . $from ."' and aqi_date<='" . $to . "' ORDER BY aqi_date ASC";
 	$result = $conn->query($sql);
 
 	if ($result->num_rows > 0) {

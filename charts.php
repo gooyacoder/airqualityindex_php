@@ -1,7 +1,34 @@
 <?php 
 	require_once 'includes/header.php';
-	require_once 'includes/functions.php';
+    require_once 'includes/functions.php';
+
 ?>
+
+<?php if($_SERVER['REQUEST_METHOD'] == 'POST'){     
+    $from = $_POST['fromdate'];
+    $to = $_POST['todate'];
+?>
+<div class="col-4 my-5">
+    <p>Please select the charts interval:</p>
+    <form action="/charts.php" method="POST"> 
+        
+        <div class="mb-3">
+            <label for="fromdate" class="form-label">From</label>
+            <input type="date" name="fromdate" class="form-control" 
+            value="<?php if($_SERVER['REQUEST_METHOD'] == 'POST') echo $_POST['fromdate'];?>">
+        </div>
+        <div class="mb-3">
+            <label for="todate" class="form-label">To</label>
+            <input type="date" class="form-control" name="todate"
+            value="<?php if($_SERVER['REQUEST_METHOD'] == 'POST') echo $_POST['todate'];?>">
+        </div>
+        <input type="submit" value="Submit" class="btn btn-success">
+    </form>
+</div>
+
+
+
+
 
 <div class="jumbotron">
 <div height="400px" width="600px" class="col-8 mx-auto">
@@ -9,9 +36,10 @@
 <?php 
 	$dates = [];
 	$aqi_array = [];
-	getChartData("Morning", $dates, $aqi_array); 
+	getChartData("Morning", $from, $to, $dates, $aqi_array); 
 
 ?>
+
 
 
 <canvas id="morning_chart" width="600px" height="400px"></canvas>
@@ -66,7 +94,7 @@ var myChart = new Chart(ctx, {
 <?php 
 	$dates = [];
 	$aqi_array = [];
-	getChartData("Noon", $dates, $aqi_array); 
+	getChartData("Noon", $from, $to, $dates, $aqi_array); 
 
 ?>
 
@@ -123,7 +151,7 @@ var myChart = new Chart(ctx, {
 <?php 
 	$dates = [];
 	$aqi_array = [];
-	getChartData("Afternoon", $dates, $aqi_array); 
+	getChartData("Afternoon", $from, $to, $dates, $aqi_array); 
 
 ?>
 
@@ -175,9 +203,31 @@ var myChart = new Chart(ctx, {
 </div>
 <br><br>
 
+<?php }else { ?>
+
+    <div class="col-4 my-5">
+    <p>Please select the charts interval:</p>
+    <form action="/charts.php" method="POST"> 
+        
+        <div class="mb-3">
+            <label for="fromdate" class="form-label">From</label>
+            <input type="date" name="fromdate" class="form-control" 
+            value="<?php if($_SERVER['REQUEST_METHOD'] == 'POST') echo $_POST['fromdate'];?>">
+        </div>
+        <div class="mb-3">
+            <label for="todate" class="form-label">To</label>
+            <input type="date" class="form-control" name="todate"
+            value="<?php if($_SERVER['REQUEST_METHOD'] == 'POST') echo $_POST['todate'];?>">
+        </div>
+        <input type="submit" value="Submit" class="btn btn-success">
+    </form>
+</div>
+
+<?php } ?>
 
 <?php 
 
 	require_once 'includes/footer.php';
+
 
 ?>
