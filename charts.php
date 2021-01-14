@@ -8,7 +8,9 @@
     $from = $_POST['fromdate'];
     $to = $_POST['todate'];
 ?>
-<div class="col-4 my-5">
+
+<!-- class="col-4 my-5" -->
+<div  id="datepicker">
     <p>Please select the charts interval:</p>
     <form action="/charts.php" method="POST"> 
         
@@ -205,7 +207,7 @@ var myChart = new Chart(ctx, {
 
 <?php }else { ?>
 
-    <div class="col-4 my-5">
+    <div id="datepicker">
     <p>Please select the charts interval:</p>
     <form action="/charts.php" method="POST"> 
         
