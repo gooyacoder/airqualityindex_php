@@ -16,5 +16,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/script_001.js" type="text/javascript"></script>
+    <script>
+        $(document).ready(function () {
+            //alert('Document Loaded!');
+            $("#page_content").animate({top: '0px'}, 500);
+        });
+    </script>
   </body>
 </html>

@@ -53,7 +53,7 @@
 			}
 			?>
 
-			<div class="jumbotron">
+			<div class="jumbotron" style="position: relative; top: -600px;" id="page_content">
 				<div class="float-right desc status_title pl-3">شهر </div><div class="float-right desc city_title"><?php echo $city; ?></div>
 			  	<div id="<?php echo $status_color; ?>" style="text-align: center;">
 					<h2><?php echo $status; ?></h2>AQI : <?php echo $result['data']['aqi'];?>
@@ -110,7 +110,7 @@
 ?>
 
 
-<div class="jumbotron">
+<div class="jumbotron" style="position: relative; top: -600px;" id="page_content">
 	<div class="float-right desc status_title pl-3">شهر </div><div class="float-right desc city_title">شیراز</div>
   	<div id="<?php echo $status_color; ?>" style="text-align: center;">
 		<h2><?php echo $status; ?></h2>AQI : <?php echo $result['data']['aqi'];?>
@@ -144,5 +144,7 @@
 	require_once 'includes/footer.php';
 
 ?>
+
+
 
 
