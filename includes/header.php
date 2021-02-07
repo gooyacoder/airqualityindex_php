@@ -8,7 +8,8 @@
     <meta name="description" content="شاخص کیفیت هوا">
     <meta name="keywords" content="شاخص کیفیت هوا,air quality index">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link href="css/Style_001.css" rel='stylesheet' type='text/css'>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <title>Nickweb Air Quality</title>
@@ -23,7 +24,7 @@
 
       
 
-    <nav id="navigation">
+    <nav class="navbar navbar-expand-lg" id="navigation">
       <div class="container">
         <a class="btn btn-xs btn-secondary about_btn" href="index.php" style="margin-right: 0px !important;">خانه</a>
         <a class="btn btn-xs btn-secondary about_btn" href="about.php">درباره ما <span class="sr-only">(current)</span></a>
