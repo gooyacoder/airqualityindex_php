@@ -40,8 +40,8 @@ body {
 .about_btn, .search_btn {margin-right: 15px;}
 nav {margin-top: 0!important; background-color: #ccc;}
 nav a, nav form input, nav form button {font-family: IRZar, 'IRZar',tahoma; font-size: 1rem !important; padding-top: 1px !important; }
-.navbar-xs { min-height:28px; height: 28px; }
-.btn-xs {  padding-top: 0px; padding-bottom: 0px; line-height: 20px; }
+/* .navbar-xs { min-height:28px; height: 28px; } */
+.btn-xs {  padding-top: 0px; padding-bottom: 0px; line-height: 34px; min-width: 80px; }
 h1 {direction: rtl; font-family: IRZar, 'IRZar',tahoma; text-align: right; font-size: 2rem; padding-right: 1rem;}
 #pooya_web {font-family: 'Montserrat', sans-serif; 
 text-align: left; font-size: 1rem; 
@@ -66,7 +66,7 @@ footer {
 #hazardous {background-color: #660000; padding-left: 10px; padding-right: 10px;padding-top: 10px; color: white; border-radius: 5px; display:inline-block; margin-top: 20px;}
 h5 {padding: 10px;}
 
-#city_input{height: 20px !important; padding-top: 8px !important;}
+/* #city_input{height: 20px !important; padding-top: 8px !important;} */
 #logo {float: left;}
 #location {font-family: IRZar, 'IRZar',tahoma; font-size: 1.5rem !important; font-weight:bold;}
 #error {font-family: IRZar, 'IRZar',tahoma; font-size: 1.5rem !important; font-weight:bold; direction: rtl; text-align: right; }
@@ -90,4 +90,14 @@ h5 {padding: 10px;}
 	
 	font-family: IRTitr, 'IRTitr' ,tahoma;
 	font-size: 30pt;
+}
+
+.btn {
+    font-family: IRTitr;
+	
+}
+
+#chart-btn{
+	font-family: tahoma;
+	font-size: 11pt;
 }

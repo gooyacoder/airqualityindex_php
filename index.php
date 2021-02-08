@@ -121,9 +121,13 @@
 	<p class="desc status_title">وضعیت آلودگی هوا</p>
   	<p class="desc"><?php echo $description;?></p>
 	<?php 
+		echo '<p>';
 		if($city == "shiraz" || $city == "شیراز"){
-			echo '<a class="btn btn-info float-right" href="charts.php">نمودارهای شاخص کیفیت هوا</a>';
+			echo '<p><br><br>';
+			echo '<a class="btn btn-outline-success float-right" href="charts.php" id="chart-btn">نمودارهای شاخص کیفیت هوا</a>';
+			echo '</p>';
 		}
+		
 	?>
 
 </div>
