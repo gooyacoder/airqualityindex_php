@@ -17,12 +17,11 @@
   <body>
 
     <div class="links site_top">
-      <h1 id="page_title">نمایش شاخص کیفیت هوای شهرهای جهان
-      <img id="logo" src="img/logo.jpg" alt="logo" width="60px" height="60px" />
-      </h1>
+      <div class="container">
+        <h1 id="page_title">نمایش شاخص کیفیت هوای شهرهای جهان
+        <img id="logo" src="img/logo.jpg" alt="logo" width="60px" height="60px" /></h1>
+      </div>
     </div>
-
-      
 
     <nav class="navbar navbar-expand-lg" id="navigation">
       <div class="container">
