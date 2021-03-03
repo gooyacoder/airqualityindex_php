@@ -6,7 +6,7 @@
 <?php 
 
 	echo "<footer>";
-	echo "<center>Copyright &copy 1995 - " . date('Y') . " Nickweb</center>";
+	echo "<div class=\"container\" id=\"nickweb\"><center>Copyright &copy 1995 - " . date('Y') . " Nickweb</center></div>";
 	echo "</footer>";
 ?>
 
