@@ -120,6 +120,7 @@ h5 {padding: 10px;}
 
 .btn-outline-light {
 	color:rgb(0, 0, 0);
+	border: none;
 }
 
 .jumbotron {
