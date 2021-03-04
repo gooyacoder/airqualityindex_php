@@ -40,7 +40,8 @@
           </ul>
           <form class="form-inline my-2 my-lg-0" method="POST" action="index.php">
             <input class="form-control mr-sm-2" id="city_input" type="search" placeholder="نام شهر را وارد کنید" aria-label="Search" name="city">
-            <button class="btn btn-xs btn-outline-light my-2 my-sm-0 search_btn" type="submit"><img src="img/search_icon.png" alt=""></button>
+            <button class="btn btn-xs btn-outline-light my-2 my-sm-0 search_btn" type="submit">
+            <img src="img/search_icon.png" alt="" width="20"></button>
           </form>
         </div>
       </div>
