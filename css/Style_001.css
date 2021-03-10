@@ -9,7 +9,7 @@ body {
 	margin: 0;
 	display:flex; 
   	flex-direction:column;
-	background-color: rgb(200, 150, 190);
+	background-image: url('../img/body_bg.jpg');
 }
 
 @font-face {
@@ -20,26 +20,29 @@ body {
 }
 
 @font-face {
+	font-family: 'BMitra';
+	src: url('BMitra.ttf');
+	src: url('BMitra.ttf'),
+	url('BMitra.ttf') format('truetype');
+  }
+
+@font-face {
   font-family: 'IRZar';
   src: url('IRZar.ttf');
   src: url('IRZar.ttf'),
   url('IRZar.ttf') format('truetype');
 }
 
-.site_top {background: url('../img/banner.jpg');height: 60px !important;}     
-.page_title_1{color: rgb(200, 150, 190);
+.site_top {background: url('../img/body_bg.jpg');;height: 60px !important;}     
+.page_title_1{color: black;
 	line-height: 60px;
 	font-size: 2rem;
-	font-family: IRTitr, 'IRTitr' ,tahoma;
-	background-color: white;
-	opacity: 0.9;
+	font-family: BMitra, 'BMitra' ,tahoma;
 }
-.page_title_2{color: rgb(200, 150, 190);
+.page_title_2{color: black;
 	line-height: 60px;
 	font-size: 1rem;
-	font-family: IRTitr, 'IRTitr',tahoma;
-	background-color: white;
-	opacity: 0.9;
+	font-family: BMitra, 'BMitra',tahoma;
 }
 .boxLeft {float: left;}
 .boxRight {float: right;}
@@ -60,7 +63,7 @@ margin-bottom: 0!important;}
 footer {
 	
 	font-size: 1rem;
-	background: url('../img/banner.jpg');
+	background: url('../img/body_bg.jpg');
 	clear: both;
     margin-top:auto; 
     height: 60px;
@@ -111,11 +114,10 @@ h5 {padding: 10px;}
 }
 
 #nickweb{
-	background-color: rgb(0, 0, 0);
 	height: 60px;
 	line-height: 60px;
 	opacity: 0.8;
-	color: rgb(255, 238, 0);
+	color: black;
 }
 
 .btn-outline-light {
@@ -124,5 +126,11 @@ h5 {padding: 10px;}
 }
 
 .jumbotron {
-	background-color: rgb(240, 220, 230);
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.custom {
+    width: 30px !important;
+	background: none;
+	border:none;
 }

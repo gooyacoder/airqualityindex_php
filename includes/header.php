@@ -19,7 +19,7 @@
     <div class="links site_top">
       <div class="container">
         <h1 id="page_title">نمایش شاخص کیفیت هوای شهرهای جهان
-        <img id="logo" src="img/logo.jpg" alt="logo" width="60px" height="60px" /></h1>
+        </h1>
       </div>
     </div>
 
@@ -40,11 +40,13 @@
           </ul>
           <form class="form-inline my-2 my-lg-0" method="POST" action="index.php">
             <input class="form-control mr-sm-2" id="city_input" type="search" placeholder="نام شهر را وارد کنید" aria-label="Search" name="city">
-            <button class="btn btn-xs btn-outline-light my-2 my-sm-0 search_btn" type="submit">
+            <button class="custom" type="submit">
             <img src="img/search_icon.png" alt="" width="20"></button>
           </form>
+          
         </div>
       </div>
     </nav>
 
     <div class="container">
+      <hr>
