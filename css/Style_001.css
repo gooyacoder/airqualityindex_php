@@ -134,3 +134,15 @@ h5 {padding: 10px;}
 	background: none;
 	border:none;
 }
+
+.search_input{
+	background: none;
+	border:none;
+	
+}
+
+.search_input:focus{
+	background: none;
+	border:none;
+	box-shadow: none;
+}
