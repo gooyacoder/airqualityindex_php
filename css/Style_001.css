@@ -9,6 +9,7 @@ body {
 	margin: 0;
 	display:flex; 
   	flex-direction:column;
+	background-image: url('../img/body_bg.jpg');
 }
 
 @font-face {
@@ -19,26 +20,35 @@ body {
 }
 
 @font-face {
+	font-family: 'BMitra';
+	src: url('BMitra.ttf');
+	src: url('BMitra.ttf'),
+	url('BMitra.ttf') format('truetype');
+  }
+
+@font-face {
   font-family: 'IRZar';
   src: url('IRZar.ttf');
   src: url('IRZar.ttf'),
   url('IRZar.ttf') format('truetype');
 }
 
-.site_top {background: url('../img/banner.jpg');height: 60px !important;}     
-.page_title_1{color: rgb(8, 35, 211);
+.site_top {height: 60px !important;}     
+.page_title_1{color: black;
 	line-height: 60px;
 	font-size: 2rem;
-	font-family: IRTitr, 'IRTitr' ,tahoma;}
-.page_title_2{color: rgb(8, 35, 211);
+	font-family: BMitra, 'BMitra' ,tahoma;
+}
+.page_title_2{color: black;
 	line-height: 60px;
 	font-size: 1rem;
-	font-family: IRTitr, 'IRTitr',tahoma;}
+	font-family: BMitra, 'BMitra',tahoma;
+}
 .boxLeft {float: left;}
 .boxRight {float: right;}
 .links {direction: rtl;}
 .about_btn, .search_btn {margin-right: 15px;}
-nav {margin-top: 0!important; background-color:rgb(84, 173, 245);}
+nav {margin-top: 0!important; }
 nav a, nav form input, nav form button {font-family: IRZar, 'IRZar',tahoma; font-size: 1rem !important; padding-top: 1px !important; }
 /* .navbar-xs { min-height:28px; height: 28px; } */
 .btn-xs {  padding-top: 0px; padding-bottom: 0px; line-height: 34px; min-width: 80px; }
@@ -51,13 +61,14 @@ margin-bottom: 0!important;}
 .desc {direction: rtl; font-family: IRZar, 'IRZar' ,tahoma; font-size: 16pt; text-align: right;}
 #icon {margin-right: 20px;}
 footer {
-	padding: 10px;
-	font-size: .8rem;
-	background: url('../img/banner.jpg');
+	
+	font-size: 1rem;
+	/* background: url('../img/body_bg.jpg'); */
 	clear: both;
     margin-top:auto; 
     height: 60px;
-	color: white;}
+	
+}
 #good {background-color: #0C0; padding-left: 10px; padding-right: 10px; padding-top: 10px; color: white;border-radius: 5px; display:inline-block; margin-top: 20px;}
 #moderate {background-color: #FFFF00; padding-left: 10px; padding-right: 10px; padding-top: 10px; color: #000;border-radius: 5px; display:inline-block; margin-top: 20px;}
 #usg {background-color: #FF9900; padding-left: 10px; padding-right: 10px;padding-top: 10px; color: white;border-radius: 5px; display:inline-block; margin-top: 20px;}
@@ -93,11 +104,45 @@ h5 {padding: 10px;}
 }
 
 .btn {
-    font-family: IRTitr;
+    font-family: IRZar;
 	
 }
 
 #chart-btn{
 	font-family: tahoma;
 	font-size: 11pt;
+}
+
+#nickweb{
+	height: 60px;
+	line-height: 60px;
+	opacity: 0.8;
+	color: black;
+}
+
+.btn-outline-light {
+	color:rgb(0, 0, 0);
+	border: none;
+}
+
+.jumbotron {
+	background-color: rgba(189, 156, 126, 0.1);
+}
+
+.custom {
+    width: 30px !important;
+	background: none;
+	border:none;
+}
+
+.search_input{
+	background: none;
+	border:none;
+	
+}
+
+.search_input:focus{
+	background: none;
+	border:none;
+	box-shadow: none;
 }

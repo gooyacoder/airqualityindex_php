@@ -116,7 +116,7 @@
 		<h2><?php echo $status; ?></h2>AQI : <?php echo $result['data']['aqi'];?>
 	</div>
 	<p class="lead" id="location"><br>Location : <?php echo $result['data']['city']['name'];?></p>
-	<div id="timestamp" class="float-right"></div><br>
+	<!-- <div id="timestamp" class="float-right"></div><br> -->
  	<hr class="my-4"> 
 	<p class="desc status_title">وضعیت آلودگی هوا</p>
   	<p class="desc"><?php echo $description;?></p>
