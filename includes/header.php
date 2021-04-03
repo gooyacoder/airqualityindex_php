@@ -49,8 +49,7 @@
 
                 </ul>
                 <form class="form-inline my-2 my-lg-0" method="POST" action="index.php">
-                    <input class="form-control mr-sm-2 search_input" id="city_input" type="search"
-<<<<<<< HEAD
+                    <input class="form-control mr-sm-2 search_input" id="city_input" type="search" size="11"
                         placeholder="نام شهر را وارد کنید" onfocus="this.placeholder=''"
                         onblur="this.placeholder='نام شهر را وارد کنید'" aria-label="Search" name="city">
                     <button class="custom" type="submit">
@@ -58,12 +57,6 @@
                         <i class="fa fa-search" aria-hidden="true"></i>
 
                     </button>
-=======
-                        placeholder="نام شهر را وارد کنید" onfocus="this.placeholder=''" onblur="this.placeholder='نام شهر را وارد کنید'"
-                         aria-label="Search" name="city">
-                    <button class="custom" type="submit">
-                        <img src="img/search_icon.png" alt="" width="20"></button>
->>>>>>> 6543975c64e2e2c945f4e21102cb67349dd54efb
                 </form>
 
             </div>
