@@ -2,12 +2,14 @@
 <html lang="en">
 
 <head>
+    
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="title" content="شاخص کیفیت هوای شهرهای جهان">
     <meta name="description" content="شاخص کیفیت هوا">
     <meta name="keywords" content="شاخص کیفیت هوا,air quality index">
+    
     <!-- Bootstrap CSS -->
 
     <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css'>
@@ -49,8 +51,7 @@
 
                 </ul>
                 <form class="form-inline my-2 my-lg-0" method="POST" action="index.php">
-                    <input class="form-control mr-sm-2 search_input" id="city_input" type="search"
-<<<<<<< HEAD
+                    <input class="form-control mr-sm-2 search_input" id="city_input" type="search" size="11"
                         placeholder="نام شهر را وارد کنید" onfocus="this.placeholder=''"
                         onblur="this.placeholder='نام شهر را وارد کنید'" aria-label="Search" name="city">
                     <button class="custom" type="submit">
@@ -58,12 +59,6 @@
                         <i class="fa fa-search" aria-hidden="true"></i>
 
                     </button>
-=======
-                        placeholder="نام شهر را وارد کنید" onfocus="this.placeholder=''" onblur="this.placeholder='نام شهر را وارد کنید'"
-                         aria-label="Search" name="city">
-                    <button class="custom" type="submit">
-                        <img src="img/search_icon.png" alt="" width="20"></button>
->>>>>>> 6543975c64e2e2c945f4e21102cb67349dd54efb
                 </form>
 
             </div>
